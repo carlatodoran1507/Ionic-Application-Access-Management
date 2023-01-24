@@ -1,0 +1,7 @@
+{
+  "name": "access-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
