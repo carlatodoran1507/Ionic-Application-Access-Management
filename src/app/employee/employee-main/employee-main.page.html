@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start" routerLink="/home">
+      Home
+    </ion-button>
+    <ion-title>Employee</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div style="padding-top: 60%; text-align: center; margin-left: 25%; margin-right: 25%">
+    <ion-button shape="round" (click)="getRulesInRange()">Search rules in range</ion-button>
+    <ion-button shape="round" (click)="getRulesWithLimit()">Search rules with limit</ion-button>
+  </div>
+</ion-content>
